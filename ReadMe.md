@@ -1,0 +1,2 @@
+- This project was created with React Native
+- Inspired by Academind @ https://github.com/Code4Blessings/rn-Guess-A-Number.git
