@@ -7,3 +7,6 @@
 ## View
 - Operates just like a div in React.js
 - Has a built-in flexbox with a default of flex-direction: column
+
+## Shadow Properties
+- Only works on IOS 
