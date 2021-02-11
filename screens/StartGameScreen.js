@@ -8,10 +8,10 @@ import Input from '../components/Input';
 const StartGameScreen = props => {
     return (
         <View style={styles.screen}>
-            <Text style={styles.title}>Begin A New Game</Text>
+            <Text style={styles.title}>Start A New Game</Text>
             <Card style={styles.inputContainer}>
                 <Text>Select A Number</Text>
-                <Input />
+                <Input style={styles.input} />
                 <View style={styles.buttonContainer}>
                     <View style={styles.buttons}>
                         <Button title='Reset' onPress={() => {}} color={Colors.primary} />
@@ -49,7 +49,8 @@ const styles = StyleSheet.create({
     },
     buttons: {
        width: 100
-    }
+    },
+    
 });
 
 export default StartGameScreen;
