@@ -63,7 +63,6 @@ For example:
 
 ```
 
-### Issues
-- Input component styles don't seem to be reusable with the use of the spread operator.
+
 
 

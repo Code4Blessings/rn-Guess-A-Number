@@ -50,7 +50,10 @@ const styles = StyleSheet.create({
     buttons: {
        width: 100
     },
-    
+    input: {
+        width: 50,
+        textAlign: 'center'
+    }
 });
 
 export default StartGameScreen;
