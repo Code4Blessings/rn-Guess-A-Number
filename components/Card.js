@@ -1,3 +1,5 @@
+//See ReadMe under Card.js for code explanation
+
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 

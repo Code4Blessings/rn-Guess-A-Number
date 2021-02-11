@@ -1,3 +1,5 @@
+//See ReadMe for Code Explanation under Input.js
+
 import React from 'react';
 import { TextInput, StyleSheet } from 'react-native';
 

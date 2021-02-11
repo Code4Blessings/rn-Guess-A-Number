@@ -63,6 +63,9 @@ For example:
 
 ```
 
+## Input.js
+- '...props' enable us to add any other props we want (as long as it is compatible) to the component when customizing it in another component.
+
 
 
 
