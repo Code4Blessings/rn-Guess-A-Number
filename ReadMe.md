@@ -75,13 +75,15 @@ const numberInputHandler = inputText => {
 
 ```
 
-- This statement says that any enstered value that is NOT a number will be replaced with an empty string.
+- This statement says that globally, any entered value, that is NOT a number will be replaced with an empty string.
 
 - On an IOS device, the keypad will only show numbers, however, on an android the keypad shows numbers, a comma, and a period.  Therefore this logic is necessary.
 
 **TouchableWithoutFeedback** - This enables the user to click in other places on the screen and close the keypad without any feedback from the screen.
 
 **Keyboard.dismiss()** - Once the user clicks on the screen, the keyboard disappears.
+
+**parseInt()** - A function that converts its first argument to a string, parses that string, then returns an integer or NaN . 
 
 
 
