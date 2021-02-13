@@ -79,7 +79,9 @@ const numberInputHandler = inputText => {
 
 - On an IOS device, the keypad will only show numbers, however, on an android the keypad shows numbers, a comma, and a period.  Therefore this logic is necessary.
 
-**TouchableWithoutFeedback** - This enables the user to click in other places on the screen and close the keypad
+**TouchableWithoutFeedback** - This enables the user to click in other places on the screen and close the keypad without any feedback from the screen.
+
+**Keyboard.dismiss()** - Once the user clicks on the screen, the keyboard disappears.
 
 
 
