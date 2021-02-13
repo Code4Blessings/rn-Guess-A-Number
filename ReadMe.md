@@ -2,10 +2,10 @@
 - Inspired by Academind @ https://github.com/Code4Blessings/rn-Guess-A-Number.git
 
 ## React-Native/React Snippets
-- *irmc* - import for React
-- *irnc* - import for React-Native
-- *rncslwc* - complete react-native skeleton
-- *rnss* - stylesheet section
+- **irmc** - import for React
+- **irnc** - import for React-Native
+- **rncslwc** - complete react-native skeleton
+- **rnss** - stylesheet section
 
 ## View
 - Operates just like a div in React.js
@@ -65,6 +65,23 @@ For example:
 
 ## Input.js
 - '...props' enable us to add any other props we want (as long as it is compatible) to the component when customizing it in another component.
+
+## StartGameScreen.js
+
+```
+const numberInputHandler = inputText => {
+        setEnteredValue(inputText.replace(/[^0-9]/g, ''));
+};
+
+```
+
+- This statement says that any enstered value that is NOT a number will be replaced with an empty string.
+
+- On an IOS device, the keypad will only show numbers, however, on an android the keypad shows numbers, a comma, and a period.  Therefore this logic is necessary.
+
+**TouchableWithoutFeedback** - This enables the user to click in other places on the screen and close the keypad
+
+
 
 
 
