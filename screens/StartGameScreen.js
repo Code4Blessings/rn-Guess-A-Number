@@ -12,8 +12,10 @@ import {
 } from 'react-native';
 
 import Card from '../components/Card';
-import Colors from '../constants/colors';
 import Input from '../components/Input';
+import NumberContainer from '../components/NumberContainer';
+import Colors from '../constants/colors';
+
 
 const StartGameScreen = props => {
     const [enteredValue, setEnteredValue] = useState('');
@@ -43,10 +45,12 @@ const StartGameScreen = props => {
     let confirmedOutput;
 
     if(confirmed) {
-        confirmedOutput = 
-        <Card style={styles.numberCard}>
-            <Text>You Selected</Text>
-        </Card>
+        confirmedOutput = (
+            <Card style={styles.numberCard}>
+                <Text>You Selected</Text>
+                <NumberContainer>{selectedNumber}</NumberContainer>
+            </Card>
+        );
     }
 
     return (
