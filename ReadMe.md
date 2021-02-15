@@ -85,6 +85,18 @@ const numberInputHandler = inputText => {
 
 **parseInt()** - A function that converts its first argument to a string, parses that string, then returns an integer or NaN . 
 
+## App.js
+
+In the following statement, the StartGameScreen component was stored in a variable in order to write a conditional that says that if the user picks a number (the userNumber) then the variable (content) will switch over to the GameScreen.
+
+```
+let content = <StartGameScreen />
+
+  if (userNumber) {
+    content = <GameScreen />
+  }
+
+```
 
 
 
