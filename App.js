@@ -22,7 +22,6 @@ export default function App() {
     <View style={styles.screen}>
       <Header title='Guess A Number' />
       {content}
-      <GameScreen />
     </View>
   );
 }
