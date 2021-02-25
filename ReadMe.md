@@ -98,6 +98,7 @@ let content = <StartGameScreen />
 
 ```
 
+## GameScreen.js
 
 
 
